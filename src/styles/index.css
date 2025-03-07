@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+   .flex-center {
+      @apply flex justify-between items-center;
+   }
+
+   .p-responsive {
+      @apply py-7 px-6 md:px-10;
+   }
+}
+
+@font-face {
+   font-family: IRANSansX;
+   src: url(/Font/IRANSansX-Medium.woff);
+   font-weight: 900;
+}
+
+* {
+   font-family: IRANSansX;
+}
+
+#app {
+   height: 100%;
+}
