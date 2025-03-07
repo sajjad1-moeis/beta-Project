@@ -1,4 +1,3 @@
-import {Checkbox} from "antd";
 import {TickSquare} from "iconsax-react";
 import React from "react";
 
